@@ -1,5 +1,4 @@
 import { InfiniteScroller } from "../components/ui/Scroller";
-
 import { SkillCard, type SkillCardProps, } from "../components/ui/SkillCard";
 
 interface projectcardProps {
@@ -28,6 +27,7 @@ const Languages: SkillCardProps = {
   ],
   count: 4,
 };
+
 
 const FrameworksandLibraries: SkillCardProps = {
   name: "Frameworks & Libraries",
