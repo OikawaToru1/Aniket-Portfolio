@@ -32,23 +32,14 @@ function Footer() {
             <FaGithub size={20} />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/aniket-adhikari01/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-400 hover:text-[#0A66C2] transition-all p-2 bg-white/5 rounded-full border border-white/5 hover:border-white/20"
           >
             <FaLinkedin size={20} />
           </a>
-          <a
-            href="#"
-            className="text-gray-400 hover:text-[#1DA1F2] transition-all p-2 bg-white/5 rounded-full border border-white/5 hover:border-white/20"
-          >
-            <FaTwitter size={20} />
-          </a>
-          <a
-            href="mailto:your-email@example.com"
-            className="text-gray-400 hover:text-sky-400 transition-all p-2 bg-white/5 rounded-full border border-white/5 hover:border-white/20"
-          >
-            <IoMail size={20} />
-          </a>
+          
         </div>
 
         {/* Copyright */}
