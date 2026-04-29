@@ -28,7 +28,9 @@ export function SkillCard({name, color, skills, count} : SkillCardProps){
 
         <div className=" flex flex-wrap gap-2 p-2">
             {skills.map((skill)=>(
-                <div className="h-8 px-3 py-2  rounded-lg border flex justify-start items-center gap-2 border-gray-700 ">
+                <div
+                 key={skill.name}
+                 className="h-8 px-3 py-2  rounded-lg border flex justify-start items-center gap-2 border-gray-700 ">
                     <span>{skill.icon}</span>
                     <p className="text-xs my-1 text-gray-500">{skill.name}</p>
                 </div>))}
