@@ -19,9 +19,11 @@ const About = () => {
             Aniket Adhikari
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
-            Computer Engineering student focused on building robust software
-            systems. I enjoy solving problems at the intersection of system
-            architecture and frontend performance.
+            Computer Engineering student passionate about crafting reliable
+            software and optimizing user experiences. I like solving problems
+            where system design meets performance. Actively looking for
+            opportunities to learn, build, and contribute as a Software
+            Developer.
           </p>
           <p className="text-gray-400 text-sm mt-4 leading-relaxed">
             Currently seeking an internship to apply my skills in
@@ -55,10 +57,11 @@ const About = () => {
                 Key Focus
               </span>
               <h3 className="text-lg font-medium text-white group-hover:text-sky-400 transition-colors">
-                Information Systems & Forensics
+                Full-Stack Development & System Design
               </h3>
               <p className="text-sm text-gray-500 mt-1">
-                System controls, auditing, and digital forensics.
+                Building scalable web applications with focus on performance and
+                architecture
               </p>
             </div>
           </div>
