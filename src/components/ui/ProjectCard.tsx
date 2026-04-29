@@ -34,7 +34,7 @@ export function ProjectCard({name, description, link, image, technologies, liveU
 
             <div className="mt-auto flex flex-wrap gap-2">
                 {
-                    technologies.map(tech=>(<div key={tech} className=" border border-gray-700 bg-gray-900 rounded-md px-2 py-1 text-center text-[12px] font-medium text-gray-300">{tech}</div>))
+                    technologies.map(tech=>(<div key={tech} className=" border border-gray-700 bg-gray-900 rounded-md px-2 py-1 text-center text-[12px] font-medium text-gray-300 hover:ring hover:ring-blue-500 transition-all duration-300">{tech}</div>))
                 }
             </div>
          
