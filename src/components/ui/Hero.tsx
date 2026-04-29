@@ -2,7 +2,7 @@
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen w-full bg-[#030712] flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen w-full bg-[#030712] flex items-center justify-center overflow-hidden">
       {/* --- LAYER 2: THE GLOW (Background Blobs) --- */}
       {/* Top Left Blob (Blue) */}
       <div
@@ -50,13 +50,17 @@ const Hero = () => {
             className="px-8 py-4 bg-sky-500 text-white font-semibold rounded-xl 
                              hover:bg-sky-400 transition-all shadow-[0_0_20px_rgba(56,189,248,0.3)]"
           >
-            See Projects
+            <a href="#projects" className="text-white">
+              See Projects
+            </a>
           </button>
           <button
             className="px-8 py-4 bg-white/5 text-white font-semibold rounded-xl 
                              border border-white/10 hover:bg-white/10 transition-all backdrop-blur-md"
           >
-            Contact Me
+            <a href="#contact" className="text-white">
+              Contact Me
+            </a>
           </button>
         </div>
       </div>
