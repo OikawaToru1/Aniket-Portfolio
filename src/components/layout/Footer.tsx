@@ -1,5 +1,5 @@
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { IoMail } from "react-icons/io5";
+import { FaGithub, FaLinkedin, } from "react-icons/fa";
+
 
 function Footer() {
   const currentYear = new Date().getFullYear();
