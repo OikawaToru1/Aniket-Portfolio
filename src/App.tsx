@@ -1,9 +1,11 @@
 import { Layout } from './components/layout/Layout';
 import Hero from './components/ui/Hero';
+import './index.css';
 
 import About from './pages/About';
 import Skills from './pages/Skills';
 import { Projects } from './pages/Projects';
+import { Contact } from './pages/Contact';
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Contact/>
       </Layout>
     </div>
   );
