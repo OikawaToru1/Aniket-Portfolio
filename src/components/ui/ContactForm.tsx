@@ -1,4 +1,4 @@
-import {set, useForm, type SubmitHandler} from "react-hook-form";
+import { useForm, type SubmitHandler} from "react-hook-form";
 import { CiUser, CiMail } from "react-icons/ci";
 import { FiMessageSquare } from "react-icons/fi";
 import emailjs from "@emailjs/browser";
@@ -15,9 +15,7 @@ export function ContactForm(){
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
     const {register,
          handleSubmit,
-          watch,
           reset,
-          formState : {errors}
         } = useForm<ContactFormProps>();
 
     const onsubmit: SubmitHandler<ContactFormProps> = (data) => {
