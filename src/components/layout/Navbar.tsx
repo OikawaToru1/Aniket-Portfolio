@@ -50,7 +50,7 @@ function Navbar() {
               href="#contact" 
               className="ml-4 px-5 py-2 text-sm font-medium bg-white/5 border border-white/10 rounded-full hover:bg-white/10 transition-all"
             >
-              Get in Touch
+             Contact me
             </a>
           </li>
         </ul>
