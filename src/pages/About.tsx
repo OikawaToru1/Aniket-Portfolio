@@ -1,4 +1,5 @@
-
+import Resume from '../assets/AniketAdhikari_Resume copy.pdf'
+import { RxFileText } from "react-icons/rx";
 import { HiOutlineAcademicCap, HiOutlineCodeBracket } from "react-icons/hi2";
 
 const About = () => {
@@ -30,6 +31,15 @@ const About = () => {
             <span className="text-gray-200"> Software Engineering </span>
             and <span className="text-gray-200">Research</span>.
           </p>
+
+          <button className='mt-8 text-lg font-medium text-white flex items-center gap-2 bg-gray-900/50 border border-gray-800 px-4 py-2 rounded-lg hover:bg-gray-700/90 transition-colors ease-in-out duration-500 cursor-pointer '
+            onClick={() => window.open(Resume, "_blank")}
+          >
+            View my resume 
+            <a href={Resume} target="_blank" className="text-sky-400 hover:underline ml-1">
+              <RxFileText size={24} className="inline-block hover:text-sky-600 transition-colors duration-300" />
+            </a>
+          </button>
         </div>
 
         {/* Right Side: Education/Path */}
