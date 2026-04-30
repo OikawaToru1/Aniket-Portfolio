@@ -1,8 +1,11 @@
-
+import { FaAngleDoubleDown } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative min-h-screen w-full bg-[#030712] flex items-center justify-center overflow-hidden">
+    <section
+      id="hero"
+      className="relative min-h-screen w-full bg-[#030712] flex items-center justify-center overflow-hidden"
+    >
       {/* --- LAYER 2: THE GLOW (Background Blobs) --- */}
       {/* Top Left Blob (Blue) */}
       <div
@@ -28,7 +31,7 @@ const Hero = () => {
           className="inline-block mb-4 px-3 py-1 text-xs font-medium tracking-wider 
                          text-sky-400 uppercase border border-sky-400/30 rounded-full bg-sky-400/5"
         >
-          Available for new opportunities
+          I'm available for opportunities!
         </span>
 
         <h1 className="text-6xl md:text-8xl font-bold text-white tracking-tight mb-6">
@@ -63,6 +66,18 @@ const Hero = () => {
             </a>
           </button>
         </div>
+      </div>
+      <div>
+        {/* --- LAYER 4: THE OVERLAY (Subtle Noise) --- */}
+        <div
+          className="absolute inset-0  bg-noise-pattern opacity-5 pointer-events-none"
+          aria-hidden="true"
+        />
+      </div>
+
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2  flex flex-col items-center gap-2">
+        <span className=" inline-block text-gray-400 ">Scroll Down</span>
+        <FaAngleDoubleDown className="text-gray-400 text-2xl animate-bounce  animation-delay-1000" />
       </div>
     </section>
   );
