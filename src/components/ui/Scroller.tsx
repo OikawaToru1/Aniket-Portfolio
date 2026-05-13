@@ -77,7 +77,7 @@ export function InfiniteScroller() {
         }
       `}</style>
       <div className="flex flex-col gap-4 py-4">
-        <h1 className="text-2xl font-mono py-2 font-bold text-white/80 text-center">Skills goes brrrrr</h1>
+        <h1 className="text-2xl font-mono py-2 font-bold text-white/80 text-center">Skills go brrrrr</h1>
         <ScrollerRow items={ITEMS} duration="40s" />
         <ScrollerRow items={ITEMS} duration="40s" reverse />
       </div>
