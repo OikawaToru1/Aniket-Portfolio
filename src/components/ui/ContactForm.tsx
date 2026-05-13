@@ -19,6 +19,14 @@ export function ContactForm(){
         } = useForm<ContactFormProps>();
 
     const onsubmit: SubmitHandler<ContactFormProps> = (data) => {
+        if(data.message.trim() === "" || data.name.trim() === "" || data.email.trim() === ""){
+          setMailSuccess(false);
+          if(timerRef.current) clearTimeout(timerRef.current)
+          timerRef.current = setTimeout(() => {
+            setMailSuccess(null);
+          }, 7000);
+          return;
+        }
         if(timerRef.current) clearTimeout(timerRef.current)
         emailjs
           .send(
