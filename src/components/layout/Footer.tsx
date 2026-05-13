@@ -24,7 +24,7 @@ function Footer() {
         {/* Social Links - Fixed Icons */}
         <div className="flex space-x-6">
           <a
-            href="https://github.com/Aniket-Adhikari"
+            href="https://github.com/OikawaToru1"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-all p-2 bg-white/5 rounded-full border border-white/5 hover:border-white/20"
@@ -39,7 +39,6 @@ function Footer() {
           >
             <FaLinkedin size={20} />
           </a>
-          
         </div>
 
         {/* Copyright */}
