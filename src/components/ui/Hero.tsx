@@ -27,12 +27,6 @@ const Hero = () => {
 
       {/* --- LAYER 3: THE CONTENT --- */}
       <div className="relative z-10 text-center px-4">
-        <span
-          className="inline-block mb-4 px-3 py-1 text-xs font-medium tracking-wider 
-                         text-sky-400 uppercase border border-sky-400/30 rounded-full bg-sky-400/5"
-        >
-          I'm available for opportunities!
-        </span>
 
         <h1 className="text-6xl md:text-8xl font-bold text-white tracking-tight mb-6">
           Aniket{" "}
