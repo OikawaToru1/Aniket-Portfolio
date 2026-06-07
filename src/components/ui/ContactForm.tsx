@@ -68,12 +68,12 @@ export function ContactForm(){
       >
         {mailSuccess !== null &&
           (mailSuccess === true ? (
-            <div className="absolute  top-2 left-1/2 -translate-x-1/2  rounded-md w-[200px] h-[50px] flex items-center justify-center gap-2 bg-white/10 backdrop-blur-md border-white/20 border">
+            <div className="absolute  top-2 left-1/2 -translate-x-1/2  rounded-md w-50 h-12.5 flex items-center justify-center gap-2 bg-white/10 backdrop-blur-md border-white/20 border">
               <span className="inline-block w-2 h-2 rounded-full bg-green-400" />
               <p>Mail sent succesfully !</p>
             </div>
           ) : (
-            <div className="absolute  top-2 left-1/2 -translate-x-1/2  rounded-md w-[200px] h-[50px] flex items-center justify-center gap-2 bg-white/10 backdrop-blur-md border-white/20 border">
+            <div className="absolute  top-2 left-1/2 -translate-x-1/2  rounded-md w-50 h-12.5 flex items-center justify-center gap-2 bg-white/10 backdrop-blur-md border-white/20 border">
               <span className="inline-block w-2 h-2 rounded-full bg-red-400" />
               <p>Failed to send email!</p>
             </div>
@@ -90,7 +90,7 @@ export function ContactForm(){
           <div className="flex items-center border border-gray-700  rounded-lg  px-3 gap-2 w-full transition-all focus-within:ring-2 focus-within:ring-blue-500 focus-within:border-blue-500">
             <CiUser aria-hidden="true" size={20} className=" text-gray-400" />
             <input
-              className="py-2 w-full bg-gray-900/40 border-none outline-none focus:ring-0"
+              className="py-2 w-full  border-none outline-none focus:ring-0"
               placeholder={"John Doe"}
               id="name"
               type="text"
@@ -109,7 +109,7 @@ export function ContactForm(){
               id="email"
               type="email"
               placeholder={"abc@yahoo.com"}
-              className="py-2 w-full bg-gray-900/40 border-none outline-none focus:ring-0"
+              className="py-2 w-full  border-none outline-none focus:ring-0"
               {...register("email", { required: true })}
             />
           </div>
@@ -132,7 +132,7 @@ export function ContactForm(){
               rows={4}
               placeholder={"Write anything"}
               {...register("message", { required: true })}
-              className="py-2 w-full bg-gray-900/40 border-none outline-none focus:ring-0 resize-y min-h-[100px]"
+              className="py-2 w-full  border-none outline-none focus:ring-0 resize-y min-h-25"
             />
           </div>
         </div>
