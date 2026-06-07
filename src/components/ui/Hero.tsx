@@ -9,20 +9,20 @@ const Hero = () => {
       {/* --- LAYER 2: THE GLOW (Background Blobs) --- */}
       {/* Top Left Blob (Blue) */}
       <div
-        className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] 
+        className="absolute top-[-10%] left-[-10%] w-125 h-125
                       rounded-full bg-blue-600/20 blur-[120px] pointer-events-none"
       />
 
       {/* Bottom Right Blob (Purple/Indigo) */}
       <div
-        className="absolute bottom-[0%] right-[-5%] w-[600px] h-[600px] 
+        className="absolute bottom-[0%] right-[-5%] w-150 h-150 
                       rounded-full bg-indigo-500/10 blur-[100px] pointer-events-none"
       />
 
       {/* Subtle Center Glow (To make the name pop) */}
       <div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
-                      w-[300px] h-[300px] bg-sky-400/5 blur-[80px] pointer-events-none"
+                      w-75 h-75 bg-sky-400/5 blur-[80px] pointer-events-none"
       />
 
       {/* --- LAYER 3: THE CONTENT --- */}
