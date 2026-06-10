@@ -3,7 +3,7 @@ import type {ProjectCardProps} from "../components/ui/ProjectCard";
 import studyhive from "../assets/studyhive.jpeg"
 import fuzzychat from "../assets/fuzzychat.png";
 import eventora from "../assets/eventora.png";
-import buddy from '../assets/Buddy.png'
+import buddy from '../assets/buddybanner.png'
 
 
 const projects: ProjectCardProps[] = [
