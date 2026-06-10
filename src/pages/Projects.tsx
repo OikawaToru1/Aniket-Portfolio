@@ -3,9 +3,28 @@ import type {ProjectCardProps} from "../components/ui/ProjectCard";
 import studyhive from "../assets/studyhive.jpeg"
 import fuzzychat from "../assets/fuzzychat.png";
 import eventora from "../assets/eventora.png";
+import buddy from '../assets/Buddy.png'
 
 
 const projects: ProjectCardProps[] = [
+  {
+    name: "Buddy",
+    description:
+      "Buddy is a full-stack AI application that lets users upload documents, ask questions, and auto-generate quizzes from their content. ",
+    link: "https://github.com/OikawaToru1/StudyHive",
+    image: buddy,
+    liveUrl: "https://buddy-oikawa.vercel.app/",
+    technologies: [
+      "React",
+      "Typescript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Pinecone",
+      "Cloudinary",
+      "JWT"
+    ],
+  },
   {
     name: "StudyHive",
     description:
@@ -45,8 +64,6 @@ const projects: ProjectCardProps[] = [
     link: "https://github.com/OikawaToru1/Eventora/tree/main/eventora",
     image: eventora,
     technologies: ["React", "Tailwind CSS", "Appwrite", "JavaScript"],
-
-
   },
 ];
 
