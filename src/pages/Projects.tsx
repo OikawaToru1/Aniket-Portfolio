@@ -11,7 +11,7 @@ const projects: ProjectCardProps[] = [
     name: "Buddy",
     description:
       "Buddy is a full-stack AI application that lets users upload documents, ask questions, and auto-generate quizzes from their content. ",
-    link: "https://github.com/OikawaToru1/StudyHive",
+    link: "https://github.com/OikawaToru1/Buddy",
     image: buddy,
     liveUrl: "https://buddy-oikawa.vercel.app/",
     technologies: [
@@ -22,7 +22,7 @@ const projects: ProjectCardProps[] = [
       "MongoDB",
       "Pinecone",
       "Cloudinary",
-      "JWT"
+      "JWT",
     ],
   },
   {
